@@ -1,0 +1,12 @@
+.toast-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.toast {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
