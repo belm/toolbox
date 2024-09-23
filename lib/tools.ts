@@ -9,32 +9,32 @@ interface Tool {
 
 export const tools: Tool[] = [
   {
-    id: 'tool1',
+    id: 'url',
     name: 'URL 编码/解码工具',
     component: dynamic(() => import('../pages/tools/Tool1'))
   },
   {
-    id: 'tool2',
+    id: 'sql',
     name: 'SQL 助手',
     component: dynamic(() => import('../pages/tools/Tool2'))
   },
   {
-    id: 'tool3',
+    id: 'time',
     name: '时间工具',
     component: dynamic(() => import('../pages/tools/Tool3'))
   },
   {
-    id: 'tool4',
+    id: 'encrypt',
     name: '加解密工具',
     component: dynamic(() => import('../pages/tools/Tool4'))
   },
   {
-    id: 'tool5',
+    id: 'json',
     name: 'JSON 格式化工具',
     component: dynamic(() => import('../pages/tools/Tool5'))
   },
   {
-    id: 'tool6',
+    id: 'password',
     name: '随机密码生成工具',
     component: dynamic(() => import('../pages/tools/Tool6'))
   },
