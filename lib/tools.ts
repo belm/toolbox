@@ -38,5 +38,10 @@ export const tools: Tool[] = [
     name: '随机密码生成工具',
     component: dynamic(() => import('../pages/tools/Tool6'))
   },
+  {
+    id: 'text-comparison',
+    name: '文本比对工具',
+    component: dynamic(() => import('../pages/tools/TextComparisonTool'))
+  },
   // 添加更多工具...
 ]
